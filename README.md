@@ -62,11 +62,29 @@ that runs within ESP32's 520 KB SRAM.
 | RAM usage | ~80 bytes (20 × float) |
 | Cloud dependency | None |
 
-### Time-series analysis
-![Anomaly time-series](resultsanomaly_timeseries.png)
+## Circuit Simulation
 
-### FFT validation
-![FFT analysis](results/fft_analysis.png)
+![Circuit](wokwi_circuit.png)
+
+## OLED Fault Detection
+
+![OLED](oled_fault.png)
+
+## Serial Monitor Output
+
+![Serial Monitor](wokwi_serial_monitor.png)
+
+## CSV Data Preview
+
+![CSV Preview](sensor_log_preview.png)
+
+## Anomaly Detection Results
+
+![Anomaly Detection](anomaly_timeseries.png)
+
+## FFT Validation
+
+![FFT Analysis](fft_analysis.png)
 
 ---
 
@@ -92,13 +110,13 @@ edge-anomaly-detection-esp32/
 ## How to Run
 
 ### Hardware simulation (Wokwi)
-1. Open the [Wokwi project](https://wokwi.com/projects/new/esp32)
+1. Open the [Wokwi project](https://wokwi.com/projects/466839086204344321)
 2. Click the green ▶ Run button
 3. Drag the potentiometer to inject temperature faults
 4. Watch the OLED show "!! FAULT" and LED turn red
 
 ### Signal analysis (Colab)
-1. Open the [Colab notebook](https://colab.research.google.com/drive/1gDNLSK6C4pXZKO)
+1. Open the [Colab notebook](https://colab.research.google.com/drive/1gDNLSK6C4pXZKOD6vqllKm1jAn9tEGo6?usp=sharing)
 2. Upload `sensor_log.csv` when prompted
 3. Run all cells to generate plots
 
