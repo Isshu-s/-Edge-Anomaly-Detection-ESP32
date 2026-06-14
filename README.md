@@ -64,27 +64,27 @@ that runs within ESP32's 520 KB SRAM.
 
 ## Circuit Simulation
 
-![Circuit](wokwi_circuit.png)
+![Circuit](results/wokwi_circuit.png)
 
 ## OLED Fault Detection
 
-![OLED](oled_fault.png)
+![OLED](results/oled_fault.png)
 
 ## Serial Monitor Output
 
-![Serial Monitor](wokwi_serial_monitor.png)
+![Serial Monitor](results/wokwi_serial_monitor.png)
 
 ## CSV Data Preview
 
-![CSV Preview](sensor_log_preview.png)
+![CSV Preview](results/sensor_log_preview.png)
 
 ## Anomaly Detection Results
 
-![Anomaly Detection](anomaly_timeseries.png)
+![Anomaly Detection](results/anomaly_timeseries.png)
 
 ## FFT Validation
 
-![FFT Analysis](fft_analysis.png)
+![FFT Analysis](results/fft_analysis.png)
 
 ---
 
@@ -98,8 +98,7 @@ edge-anomaly-detection-esp32/
 │   ├── anomaly_analysis.ipynb  ← Colab notebook
 │   └── sensor_log.csv          ← sample sensor data
 ├── results/
-│   ├── anomaly_timeseries.png
-│   └── fft_analysis.png
+│
 ├── wokwi/
 │   └── diagram.json        ← circuit definition
 └── README.md
@@ -143,4 +142,3 @@ edge-anomaly-detection-esp32/
 
 ---
 
-*Project by S Aishwarya
