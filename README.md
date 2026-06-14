@@ -1,5 +1,5 @@
 # Edge Anomaly Detection for IoT Sensor Nodes
-### ESP32 + DHT22 | Simulated on Wokwi | Validated with Python FFT
+### ESP32 + DHT22 | Edge Anomaly Detection | Wokwi + Python FFT Validation
 ESP32-based edge anomaly detection system using rolling Z-score analysis, OLED fault alerts, and FFT validation in Python. Simulated with Wokwi and analyzed in Google Colab.
 
 [![Wokwi](https://img.shields.io/badge/Simulation-Wokwi-green)](https://wokwi.com/projects/new/esp32)
