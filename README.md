@@ -2,8 +2,8 @@
 ### ESP32 + DHT22 | Simulated on Wokwi | Validated with Python FFT
 ESP32-based edge anomaly detection system using rolling Z-score analysis, OLED fault alerts, and FFT validation in Python. Simulated with Wokwi and analyzed in Google Colab.
 
-[![Wokwi](https://img.shields.io/badge/Simulation-Wokwi-green)](YOUR_WOKWI_LINK_HERE)
-[![Colab](https://img.shields.io/badge/Analysis-Colab-orange)](YOUR_COLAB_LINK_HERE)
+[![Wokwi](https://img.shields.io/badge/Simulation-Wokwi-green)](https://wokwi.com/projects/new/esp32)
+[![Colab](https://img.shields.io/badge/Analysis-Colab-orange)](https://colab.research.google.com/drive/1gDNLSK6C4)
 
 ---
 
@@ -63,7 +63,7 @@ that runs within ESP32's 520 KB SRAM.
 | Cloud dependency | None |
 
 ### Time-series analysis
-![Anomaly time-series](results/anomaly_timeseries.png)
+![Anomaly time-series](resultsanomaly_timeseries.png)
 
 ### FFT validation
 ![FFT analysis](results/fft_analysis.png)
@@ -92,13 +92,13 @@ edge-anomaly-detection-esp32/
 ## How to Run
 
 ### Hardware simulation (Wokwi)
-1. Open the [Wokwi project](YOUR_WOKWI_LINK_HERE)
+1. Open the [Wokwi project](https://wokwi.com/projects/new/esp32)
 2. Click the green ▶ Run button
 3. Drag the potentiometer to inject temperature faults
 4. Watch the OLED show "!! FAULT" and LED turn red
 
 ### Signal analysis (Colab)
-1. Open the [Colab notebook](YOUR_COLAB_LINK_HERE)
+1. Open the [Colab notebook](https://colab.research.google.com/drive/1gDNLSK6C4pXZKO)
 2. Upload `sensor_log.csv` when prompted
 3. Run all cells to generate plots
 
@@ -125,4 +125,4 @@ edge-anomaly-detection-esp32/
 
 ---
 
-*Project by Aish | B.E. ECE, RNSIT Bangalore*
+*Project by S Aishwarya
